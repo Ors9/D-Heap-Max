@@ -9,78 +9,90 @@ This project implements a **D-ary Max Heap** in Java. Unlike a binary heap (wher
 - `DHeapUserInterface.java` – Command-line user interface to interact with the heap.
 - `DHeapMain.java` – Entry point (`main` method) that starts the interface.
 
-##📋 Menu Operations
+## 📋 Menu Operations
 
-1 - buildHeap                  (Insert multiple values into the heap)
-2 - changeD                    (Change the value of d dynamically)
-3 - ExtractMax                 (Remove and print the largest value)
-4 - Insert value to the heap   (Insert a single number)
-5 - Print Heap                 (Display current heap structure)
-6 - Exit Program               (Quit)
+```
+1 - buildHeap                  (Insert multiple values into the heap)  
+2 - changeD                    (Change the value of d dynamically)  
+3 - ExtractMax                 (Remove and print the largest value)  
+4 - Insert value to the heap   (Insert a single number)  
+5 - Print Heap                 (Display current heap structure)  
+6 - Exit Program               (Quit)  
+```
 
+## 💡 General Example
 
-##💡General Example
+```
+Please enter value of d  
+> 3  
 
-Please enter value of d
-> 3
+The menu of operation are:  
+1 - buildHeap  
+2 - changeD  
+3 - ExtractMax  
+4 - Insert value to the heap  
+5 - Print Heap  
+6 - Exit Program  
+> 1  
+Please enter values to the heap:  
+> 9 12 3 7 5  
 
-The menu of operation are:
-1 - buildHeap
-2 - changeD
-3 - ExtractMax
-4 - Insert value to the heap
-5 - Print Heap
-6 - Exit Program
-> 1
-Please enter values to the heap:
-> 9 12 3 7 5
-d-ary Heap:
-12
-9 3 7
-5
+d-ary Heap:  
+12  
+9 3 7  
+5  
+```
 
-##Build Heap Example:
-Please enter value of d
-> 2
+## 🧱 Build Heap Example
 
-The menu of operation are:
-1 - buildHeap
-...
-> 1
-Please enter values to the heap:
-> 10 30 20 5 3
-d-ary Heap:
-30
-10 20
-5 3
+```
+Please enter value of d  
+> 2  
 
+> 1  
+Please enter values to the heap:  
+> 10 30 20 5 3  
 
-##Insert into Heap
+d-ary Heap:  
+30  
+10 20  
+5 3  
+```
 
-> 4
-Enter value to insert:
-> 50
-d-ary Heap:
-50
-10 30
-5 3 20
+## ➕ Insert into Heap
 
-##Change D
-> 2
-Please enter value of d
-> 3
+```
+> 4  
+Enter value to insert:  
+> 50  
 
-d-ary Heap:
-50
-30 20 10
-5 3
+d-ary Heap:  
+50  
+10 30  
+5 3 20  
+```
 
-##Extract Max
-> 3
-The max is exctracted and the value is 50
+## 🔁 Change D
 
-d-ary Heap:
-30
-10 20
-5 3
+```
+> 2  
+Please enter value of d  
+> 3  
 
+d-ary Heap:  
+50  
+30 20 10  
+5 3  
+```
+
+## 📤 Extract Max
+
+```
+> 3  
+The max is exctracted and the value is 50  
+
+d-ary Heap:  
+30  
+10 20  
+5 3  
+```
